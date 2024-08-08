@@ -1,0 +1,432 @@
+body{
+    background-image: url("images/28000002_7339899.jpg");
+    background-size: cover;
+}
+.Center{
+   
+    width: 400px;
+    height: 500px;
+    margin-left: 24rem;
+    margin-top: 2rem;
+    background: rgba(145, 30, 168, 0.995);
+    
+    /* border-style: ridge; */
+    /* border-color: rgb(0,0,0); */
+}
+.top-part{
+    display: flex;
+}
+#target{
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 30px;
+}
+#target:hover{
+    cursor: pointer;
+}
+/* #location-logo{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 30px;
+}
+#city-name{
+   
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-top: -1.8rem;
+    margin-left: 11rem;
+} */
+#search-bar{
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 2.4rem;
+    border: none;
+    border-radius:25px ;
+    -webkit-border-radius:25px ;
+    -moz-border-radius:25px ;
+    -ms-border-radius:25px ;
+    -o-border-radius:25px ;
+    font-family:'Courier New', Courier, monospace;
+}
+#info-logo{
+    display: inline;
+    margin-left: 2.2rem;
+    margin-top: 2.2rem;
+    width: 25px;
+    height: 25px;
+}
+#info-logo:hover{
+    cursor: pointer;
+}
+#search-but{
+    background-color: transparent;
+    border: none;
+}
+#search-but:hover {
+    cursor:pointer;
+}
+#search-logo{
+    display: inline;
+    margin-left: 1rem;
+    margin-top: 2.2rem;
+    width: 25px;
+    height: 25px;
+}
+.date-part{
+    margin-left: 5rem;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-top: 4rem;
+}
+.type{
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-left:7.3rem ;
+    margin-top: 4rem;
+    font-size: 40px;
+}
+.temperature{
+    margin-left: 7rem;
+    display: flex;
+    margin-top: -6rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: hsl(0, 0%, 100%);
+
+}
+#temperature-read{
+    font-size: 4rem;
+    
+    
+}
+#centi{
+    font-size: 60px;
+    margin-top: 4.2rem;
+    
+}
+
+#humidity-logo{
+    margin-left: 4rem;
+    
+    width: 40px;
+    height: 40px;
+}
+#humidity{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-left: 3rem;
+    margin-bottom: 20px;
+    margin-top: -2px;
+}
+#air-logo{
+    margin-left: 7rem;
+    
+    width: 40px;
+    height: 40px;
+}
+#air{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin-left: 6rem;
+    margin-bottom: 20px;
+   
+}
+#footer{
+    display: flex;
+}
+
+@media (max-width:430px){
+    body{
+        background-image: url("images/28000002_7339899.jpg");
+        background-size:cover;
+        
+    }
+    .Center{
+       
+        width: 300px;
+        height: 400px;
+        margin-left: 44px;
+        margin-top: 200px;
+        background: rgba(145, 30, 168, 0.995);
+        
+        /* border-style: ridge; */
+        /* border-color: rgb(0,0,0); */
+    }
+    .top-part{
+        display: flex;
+    }
+    #target{
+        display: inline;
+        margin-top: 32px;
+        margin-left: 2px;
+        width: 25px;
+        height: 25px;
+    }
+    #target:hover{
+        cursor: pointer;
+    }
+    /* #location-logo{
+        margin-top: 2rem;
+        margin-left: 4rem;
+        width: 30px;
+    }
+    #city-name{
+       
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-top: -1.8rem;
+        margin-left: 11rem;
+    } */
+    #search-bar{
+        display: inline;
+        margin-top: 32px;
+        margin-left: 60px;
+        border: none;
+        border-radius:25px ;
+        -webkit-border-radius:25px ;
+        -moz-border-radius:25px ;
+        -ms-border-radius:25px ;
+        -o-border-radius:25px ;
+        font-family:'Courier New', Courier, monospace;
+        width: 80px;
+    }
+    #info-logo{
+        display: inline;
+        margin-left:30px;
+        margin-top: 32px;
+        width: 25px;
+        height: 25px;
+    }
+    #info-logo:hover{
+        cursor: pointer;
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+    }
+    #search-but:hover {
+        cursor:pointer;
+    }
+    #search-logo{
+        display: inline;
+        margin-left: 5px;
+        margin-top: 32px;
+        width: 25px;
+        height: 25px;
+    }
+    .date-part{
+        margin-left: 5rem;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-top: 4rem;
+    }
+    .type{
+        
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-left:75px ;
+        margin-top: 4rem;
+        font-size: 35px;
+    }
+    .temperature{
+        margin-left: 4.5rem;
+        display: flex;
+        margin-top: -6rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: hsl(0, 0%, 100%);
+    
+    }
+    #temperature-read{
+        font-size: 3.5rem;
+        
+        
+    }
+    #centi{
+        font-size: 45px;
+        margin-top: 4.2rem;
+        
+    }
+    
+    #humidity-logo{
+        margin-left: 40px;
+        margin-top: -30px;
+        width: 40px;
+        height: 40px;
+    }
+    #humidity{
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-left: 1.5rem;
+        margin-bottom: 20px;
+        margin-top: -2px;
+    }
+    #air-logo{
+        margin-left: 5rem;
+        margin-top: -30px;
+        width: 40px;
+        height: 40px;
+    }
+    #air{
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-left: 4rem;
+        margin-top: -1px;
+       
+    }
+    #footer{
+        display: flex;
+    }
+    
+}
+@media (max-width:540px){
+    body{
+        background-image: url("images/28000002_7339899.jpg");
+        background-size:cover;
+        
+    }
+    .Center{
+       
+        width: 400px;
+        height: 500px;
+        margin-left: 4rem;
+        margin-top: 100px;
+        background: rgba(145, 30, 168, 0.995);
+        
+         border-style: ridge; 
+         border-color: rgb(0,0,0); 
+    }
+    .top-part{
+        display: flex;
+    }
+    #target{
+        display: inline;
+        margin-top: 32px;
+        margin-left: 5px;
+        width: 30px;
+        height: 30px;
+    }
+    #target:hover{
+        cursor: pointer;
+    }
+    #location-logo{
+        margin-top: 2rem;
+        margin-left: 5rem;
+        width: 30px;
+    }
+    #city-name{
+       
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-top: -1.8rem;
+        margin-left: 11rem;
+    } 
+    #search-bar{
+        display: inline;
+        margin-top: 32px;
+        margin-left: 60px;
+        border: none;
+        border-radius:25px ;
+        -webkit-border-radius:25px ;
+        -moz-border-radius:25px ;
+        -ms-border-radius:25px ;
+        -o-border-radius:25px ;
+        font-family:'Courier New', Courier, monospace;
+        width: 150px;
+    }
+    #info-logo{
+        display: inline;
+        margin-left:50px;
+        margin-top: 30px;
+        width: 30px;
+        height: 30px;
+    }
+    #info-logo:hover{
+        cursor: pointer;
+    }
+    #search-but{
+        background-color: transparent;
+        border: none;
+    }
+    #search-but:hover {
+        cursor:pointer;
+    }
+    #search-logo{
+        display: inline;
+        margin-left: 7px;
+        margin-top: 32px;
+        width: 30px;
+        height: 30px;
+    }
+    /* .date-part{
+        margin-left: 5rem;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-top: 4rem;
+    } */
+    .type{
+        
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-left:95px ;
+        margin-top: 4rem;
+        font-size: 55px;
+    }
+    .temperature{
+        margin-left: 120px;
+        display: flex;
+        margin-top: -6rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: hsl(0, 0%, 100%);
+    
+    }
+    #temperature-read{
+        font-size: 65px;
+        
+        
+    }
+    #centi{
+        font-size: 60px;
+        margin-top: 4.2rem;
+        
+    }
+    
+    #humidity-logo{
+        margin-left: 50px;
+        margin-top: -30px;
+        width: 50px;
+        height: 50px;
+    }
+    #humidity{
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-left: 2.5rem;
+        margin-bottom: 20px;
+        margin-top: -2px;
+        font-size: 25px;
+    }
+    #air-logo{
+        margin-left: 5rem;
+        margin-top: -30px;
+        width: 60px;
+        height: 60px;
+    }
+    #air{
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffffff;
+        margin-left: 4rem;
+        margin-top: -1px;
+        font-size: 25px;
+       
+    }
+    #footer{
+        display: flex;
+    }
+    
+}
